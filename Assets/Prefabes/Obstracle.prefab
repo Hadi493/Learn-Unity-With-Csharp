@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4607238521922665232}
   - component: {fileID: 5328655197425125787}
   m_Layer: 0
-  m_Name: Obsracle
-  m_TagString: Untagged
+  m_Name: Obstracle
+  m_TagString: Obstracles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

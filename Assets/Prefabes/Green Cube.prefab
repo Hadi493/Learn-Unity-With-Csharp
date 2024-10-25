@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3146058596997629005}
   m_Layer: 0
   m_Name: Green Cube
-  m_TagString: Untagged
+  m_TagString: Obstracles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
