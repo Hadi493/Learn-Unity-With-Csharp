@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlyerScript : MonoBehaviour {
 
     // all variables
-    public float force = 10f;
+    public float force = 100f;
     public float speed = 10f;
     public float max_x = 12.19f;
     public float min_x = -1.29f;
