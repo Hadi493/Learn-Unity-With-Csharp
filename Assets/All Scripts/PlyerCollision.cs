@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlyerCollasion : MonoBehaviour {
     
-    // public PlyerScript plyerScript;
+    public PlyerScript plyerScript;
 
     // private void OnCollisionEnter(Collision other) {
     //     // Debug.Log(other.gameObject.name);
@@ -18,9 +18,9 @@ public class PlyerCollasion : MonoBehaviour {
         }
     }
 
-    // private void OnCollisionEnter(Collision other) {
-    //     if (other.gameObject.tag == "Obstracles") {
-    //         plyerScript.enabled = false;
-    //     }
-    // }
+    private void OnCollisionEnter(Collision other) {
+        if (other.gameObject.tag == "Obstracles") {
+            plyerScript.enabled = false;
+        }
+    }
 }
